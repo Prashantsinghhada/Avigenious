@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+.rang{
+    display: grid;
+    grid-template-columns:repeat(10,1fr);
+    background-color: rgb(10, 97, 68);
+    position: relative;
+}
+ .box input{
+    position: relative;
+    align-items: start;
+    display:block;
+    appearance: slider-vertical;
+    height: 20rem;
+    width: 10rem;
+    background-color: brown;
+}
+ 
+
+
+input[type="range"]{
+    --webkit-appearance: none;
+    background-color: violet;
+    text-decoration: none;
+    gap:3rem;
+    size:6rem;
+    background-color: rgba(34, 34, 17, 0.536);
+    accent-color: rgb(11, 20, 64)!important;
+   background-image: linear-gradient(#ff4500, #110d2c);
+}
+input[type=range] {
+    -moz-webkit-appearance: none;
+    margin: 18px 0;
+    width: 200px;
+  }

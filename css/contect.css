@@ -1,0 +1,84 @@
+*{
+    box-sizing:border-box;
+    margin:o;
+    padding:0;
+}
+.box-contenor{
+    display:grid;
+    grid-template-columns:repeat(4 ,1fr);
+    gap: 1rem;
+    /* position:absolute; */
+    padding: auto;
+
+}
+
+.card-box{
+    position:relative;
+    margin: 1rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width:21vw;
+    border-spacing: 1rem;
+    display: inline-block;
+   border-right:1px solid rgb(1, 17, 26)  ;
+   border-left:1px solid  rgb(1, 17, 26)  ;
+   /* box-shadow:0.2rem gray; */
+   box-shadow: 2px 1px 12px 10px rgba(9, 9, 145, 0.2);
+   
+}
+.card-box .image-box{  
+    position: relative;
+    text-align: center;
+    
+}
+.deatails-box{
+padding:0.2rem;
+
+
+    border-top:0.1 solid rgb(37, 67, 138); 
+    /* border:0.2rem solid rgb(17, 43, 103);  */
+    text-align: justify;
+
+}
+.contener-box{
+    display:grid;
+    font-size:20px;
+    
+    
+    /* padding:0.1rem; */
+   color:rgb(2, 40, 69);
+}
+.card-box .date-box{
+    border-top:0.1rem solid rgb(58, 137, 179);    
+    padding:0.2rem;
+
+
+}
+img{
+align-content:justify;
+position:relative;
+height: 10rem;
+align-items: center;
+margin: auto;
+
+}
+.card-footer{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+place-items:center;
+padding:0.2rem;
+border-top:0.1rem solid grey ;
+border-bottom:0.1rem solid grey;
+
+}
+button{
+    color:white;
+    background-color: rgb(54, 121, 165);
+    border-radius:2px 2px;
+    padding:0.2rem;
+    border: none;
+}
+.name-box{
+    font-weight: bold;
+    color: rgb(3, 63, 85);
+}

@@ -1,0 +1,47 @@
+/* html */
+
+.wrapper{
+  display: flex;
+  justify-content:center;
+  height:100%;
+  background-color:ligntgray;
+  }
+#grafica-puntos{
+  width:500px;
+}
+
+
+
+
+ .st1,.st2,.st3{ 
+  animation-duration: 2s;
+  animation-name:progressbaarAnimation;
+  animation-iteration-count:infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes progressbaarAnimation{
+  from{
+    width:0%;
+
+  }
+  to{
+    width:100%;
+   
+
+  }
+
+}
+
+@keyframes progressbaarAnimation{
+  from{
+    width:0px;
+
+  }
+  to{
+    width:500px;
+   
+
+  }
+
+}

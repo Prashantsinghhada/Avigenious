@@ -1,0 +1,172 @@
+body{
+    margin-top: 2rem;
+    margin-right: 8rem;
+    margin-left: 8rem;
+
+}
+
+.AboutBox .Aboutimagebox .box img{
+    height: 15rem;
+    border-radius: 30%;
+   
+}
+
+.AboutBox{
+ height:100%;
+display: grid;
+text-align: center;    
+grid-template-columns: 1fr 1fr;
+}
+
+.AboutBox .Aboutdatabox p{
+    text-align: justify;
+    margin: 1rem;
+    word-spacing: 3px;
+    /* -ms-layout-grid-char: auto; */
+}
+
+
+
+.AboutBox .Aboutimagebox{
+
+    text-decoration: dotted;
+
+    /* z-index:; */
+}
+.box{
+    position:absolute;
+
+}
+
+#box1{
+   
+    right:11rem;
+    border-radius:2rem 6rem 9rem 5rem;
+    z-index: 3;
+}
+
+#box2{
+ 
+    top:2rem;
+    right:30rem;   
+    border-radius:2rem 6rem 9rem 5rem;
+}
+
+
+#box3{
+    top:7rem;
+    right:18rem;
+    border-radius:2rem 6rem 10rem 5rem;
+    z-index: 4;
+}
+
+
+@media (max-width:600px){
+body{
+    margin:2rem;
+}
+    
+.AboutBox{
+    display: grid;
+    text-align: center;    
+    grid-template-columns: 1fr;
+  
+    }
+    .AboutBox .Aboutimagebox{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        place-items: center;
+        position: relative;
+
+    }
+    .box{
+        position: absolute;
+    
+    }
+    #box3{
+       width:1rem;
+       top:10rem;
+       
+    }
+    #box2{
+        display: inline;
+        position: relative;
+        top:10px;
+        right:10rem;
+        /* border-right:1px solid gray; */
+
+    
+    }
+    #box1{
+        display: inline;
+        position: relative;
+        top:0rem;
+        left:13rem;
+        /* border-left:1px solid gray;  */
+        transform: rotate3d(10, 0, 1, 0deg);
+        
+    }
+
+
+}
+
+    @media (min-width:900px) and (max-width:600){
+
+
+        body{
+            margin:2rem;
+        }
+            
+        .AboutBox{
+            display: grid;
+            text-align: center;    
+            grid-template-columns: 1fr 1fr;
+          
+            }
+            .AboutBox .Aboutimagebox{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                place-items: center;
+                position: relative;
+        
+            }
+            .box{
+                position: absolute;
+            
+            }
+            #box3{
+               width:1rem;
+               top:10rem;
+               
+            }
+            #box2{
+                display: inline;
+                position: relative;
+                top:10px;
+                right:10rem;
+                /* border-right:1px solid gray; */
+        
+            
+            }
+            #box1{
+                display: inline;
+                position: relative;
+                top:0rem;
+                left:13rem;
+                /* border-left:1px solid gray;  */
+                transform: rotate3d(10, 0, 1, 0deg);
+                
+            }
+      
+        }
+
+
+
+
+
+
+
+
+
+
+    

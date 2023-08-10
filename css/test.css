@@ -1,0 +1,53 @@
+
+
+  .emp-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    overflow-x: auto;
+    
+
+  }
+
+  .emp-box .exp .box {
+    display: grid;
+    height: 10rem;
+    width: 10rem;
+    background-color: rgb(8, 248, 252);
+    border-radius: 50%;
+    margin: 2rem;
+    z-index: -12;
+    place-content: center;
+    color: rgb(26, 142, 113);
+    font-size: large;
+    font-weight: 800;
+
+
+
+  }
+
+  .emp-box .exp .box:first-child {
+    height: 5rem;
+    width: 5rem;
+    background-color: rgb(6, 32, 38);
+    border-radius: 50%;
+    margin: 1rem;
+    z-index: 12;
+    position:absolute;
+    place-items: center;
+    color: rgb(235, 226, 226);
+  }
+  @media only screen and (max-width:700px) {
+    .exp{
+    
+      margin: auto;
+
+    }
+    .exp::even-child{
+      background-color: black;
+
+    }
+
+    .emp-box{
+      grid-template-columns:1fr;     
+    }
+  }
